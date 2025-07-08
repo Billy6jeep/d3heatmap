@@ -35,7 +35,8 @@ Like any htmlwidget, you can visualize a d3 heatmap directly from the R console:
 library(d3heatmap)
 d3heatmap(mtcars, scale = "column", colors = "Spectral")
 ```
-You can also include them in R Markdown chunks, or use them in Shiny applications with the `d3heatmapOutput` and `renderD3heatmap` functions.
+Also use in R Markdown or Shiny with d3heatmapOutput() and renderD3heatmap().
+
 
 See `?d3heatmap` for options.
 
